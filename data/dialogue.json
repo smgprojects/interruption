@@ -24,11 +24,16 @@
 		"Leave it to #friend# to put people in #adjective# situations.",
 		"#exclamation.capitalize#, #otherFriend# can be so #adjective# sometimes.",
 		"I haven't seen #friend# in a while. Good to know they're doing okay.",
+		"I haven't seen #friend# since we summoned #deities# at #digSite#",
+		"#exclamation.capitalize#, I hope #friend# doesn't apply to grad school.",
+		"#exclamation.capitalize#, didn't #friend# sleep with #otherFriend#?",
 		"I haven't hung out with #otherFriend# in ages, and now I know why.",
 		"#exclamation.capitalize#, I haven't seen #friend# since we went to the #location# last #longerTimePeriod#.",
 		"#exclamation.capitalize#, I miss #otherFriend# and their #adjective# hijinks.",
 		"I see #otherFriend# is #emotion# as usual these days.",
 		"Last time I saw #friend#, they were with that #person#... #name#, was it?",
+		"Didn't the coroner interview #friend# about what happened with #name#?",
+		"#exclamation.capitalize#, I think the police arrested #friend#, eh?",
 		"#exclamation.capitalize#, I wish I coulda been there.",
 		"#exclamation.capitalize#, I hope #friend#'s doing okay. Haven't seen them in forever.",
 		"#exclamation.capitalize#, I haven't seen much of #otherFriend# since the breakup with #name#, and I'm mostly #emotion# about that."
@@ -37,41 +42,50 @@
 	[
 		"Uh... yeah... #adjective#... #soUmm#",
 		"Sounds... uh... #superAdjective#... #soUmm#",
+		"Listen. Somebody has to figure out what happened to #name#.",
 		"Hehehe... sounds #superAdjective#... #soUmm#",
 		"Sounds like you all had a lot of fun... #soUmm#",
+		"You bastards, the #deities# killed #friend#! Don't you care?",
+		"Look, #friend# was arrested and is in jail - and still hasn't fixed the #archaeoWord#!",
 		"Heh... #otherFriend# sounds like quite a character... #soUmm#",
 		"I've never met #friend#, but they seem... #adjective# I guess... #soUmm#",
 		"Haha... #stranger#... I should make that a character in a thing I'm writing... #soUmm#",
 		"I forget... have I met #otherFriend# before? #soUmm#",
-		"Wait... who's #friend#, again? #soUmm#"
+		"Wait... who's #friend#, again? #soUmm#",
+		"What happened to the #archaeoWord#?"
 	],
 	"startMonologue":
 	[
-		"I just played #game.a# about #gamePremise#."
+		"I just reviewed #game.a# about #gamePremise#."
 	],
 	"continueMonologue":
 	[
-		"I also played #game.a# about #gamePremise#.",
+		"I also read #game.a# about #gamePremise#.",
+		"I also did some work on #archaeoWord.a#",
+		"I was writing a #archaoeWord# report on #gamePremise#.",
 		"There's also #gamePremise#; it's #superAdjective#.",
 		"It was actually a commentary about #currentEvent#. Or at least that's what the #gameAuthor# said.",
-		"#basically.capitalize#, most of what you do in the game is #sillyVerb#, which is #superAdjective#.",
-		"Some #gamesPeople# say it's not really a game because all you do is #sillyVerb#, but I don't care.",
-		"I was really #emotion# because I'd never played a game where you #sillyVerb# before.",
+		"#basically.capitalize#, most of the argument is #sillyVerb#, which is #superAdjective#.",
+		"Some #gamesPeople# say it's not really a monograph because all you do is #sillyVerb#, but I don't care.",
+		"I was really #emotion# because I'd never read an article where the author argues that you basically #sillyVerb# before.",
 		"When I got to the part about #gamePremise#, I was pretty #emotion#.",
 		"And then I got to the #adjective# part about #gamePremise#, and I was like, #exclamation#!"
 	],
 	"respondToMonologue":
 	[
 		"Uh-huh... okay.",
+		"Right. Right..... Right.",
 		"Wow... okay.",
 		"That's... interesting.",
 		"You're really into that stuff, huh?",
 		"#exclamation.capitalize#, that sounds #adjective#. Can you send me a link to it?"
 	],
+	
 	"name":
 	[
-		"Jamie", "Jackie", "Fred", "Dominique", "Valentine", "Rickie", "Shawn", "Devon", "Evan", "Casey", "Kieran", "Quinn", "Ainsley", "Morgan", "Mackenzie", "Skeeter", "Nico", "Andy", "Kris", "Ivan", "Rae", "Damien", "Leslie", "Rowan", "Spike", "Storm", "Jess", "Maddox", "Kim", "Frankie", "Nick", "Nicky", "Jules", "Sky", "Rory", "Corey", "Alex", "Alexis", "Danny", "Leaf", "River", "Leigh", "Marty", "Darcy", "Charlie", "Ziggy", "Alonzo", "Aloysius", "Callisto", "Ocean", "Jean-Marie", "Laurence", "Ed", "Theo", "Dietrich", "Jo", "Jo-Jo", "Luca", "Mal", "Ronnie", "Su", "Felix", "Patrice", "Ash", "Sam", "Candy", "Apple", "Cosmo", "Jocelyn", "Jael", "Gael"
+		"Ella", "Sarah", "Frank", "Trevor", "Evan", "Susan", "Anton", "Clarence", "Art", "mina", "Stephen", "Sophie", "George", "Kelly", "Arnold", "Maurizio"
 	],
+
 	"person":
 	[
 		"#age# #gender#",
@@ -84,26 +98,35 @@
 	],
 	"gender":
 	[
-		"woman", "man", "guy", "gal", "butch", "femme", "androgyne", "birl", "cutie", "radical faerie", "nun", "wizard", "lady", "gentleman", "cyborg", "person of mysterious and indistinct gender", "human", "priest", "goddess", "Magical Girl", "heartthrob", "silver fox", "bear", "businessman", "businesswoman", "brony", "private detective", "executive transvestite", "Missingno.", "tentacle monster", "slime babe", "femme fatale", "homme fatale", "ghost", "Juggalo", "princess", "prince", "queen", "king", "quing", "dark elf", "halfling"
+		"woman", "man", "guy", "gal", "butch", "femme", "androgyne", "cutie", "nun", "associate prof", "lady", "gentleman", "cyborg", "person of mysterious and indistinct gender", "human", "priest", "goddess", "Magical Girl", "heartthrob", "silver fox", "bear", "businessman", "businesswoman", "brony", "private detective", "executive transvestite", "tentacle monster", "femme fatale", "homme fatale", "ghost", "Juggalo", "silverback", "volunteer", "site director", "finds officer", "coroner", "police officer"
 	],
 	"accessory":
 	[
-		"pet #animal#", "tiara", "impossibly elaborate hat", "hurdy gurdy", "sense of adventure", "small child", "enormous Louis Vuitton suitcase", "fixie bike", "Ovation guitar", "pair of six-inch stilettos", "penchant for creative curses", "beautiful singing voice", "bouquet of white roses", "fedora", "trilby hat", "pair of light-up sneakers", "spiky Mario backpack", "posse of rainbow-haired punks", "pair of galaxy leggings", "sarong made from curtains", "heart of (literal) gold", "talking moustache", "small #animal# in a purse", "gold tooth", "mood ring", "tendency to leave glitter everywhere", "trombone", "sousaphone", "accordion", "keytar", "bassoon"
+		"magnetometer", "trowel", "bad personal hygiene", "trowel-holster", "georadar", "shovel", "pickaxe", "pet #animal#", "tiara", "impossibly elaborate hat", "hurdy gurdy", "sense of adventure", "communicable skin disease", "sun burn from being out in the field", "small child", "enormous Louis Vuitton suitcase", "fixie bike", "Ovation guitar", "pair of six-inch stilettos", "penchant for creative curses", "beautiful singing voice", "bouquet of white roses", "fedora", "trilby hat", "pair of light-up sneakers", "spiky Mario backpack", "posse of rainbow-haired punks", "pair of galaxy leggings", "sarong made from curtains", "heart of (literal) gold", "small #animal# in a purse", "gold tooth", "mood ring", "tendency to leave glitter everywhere", "trombone", "sousaphone", "accordion", "keytar", "bassoon", "distressing personal odor"
 	],
 	"out":
 	[
 		"out",
+		"at #digSite#",
 		"at the #location#",
 		"at this #location#",
 		"in some #location#",
 		"checking out that #location#",
 		"hanging out in the city",
+		"squatting at the #researchInstitute#",
 		"wandering around aimlessly",
-		"bumming around"
+		"bumming around",
+		"hanging out at the #researchInstitute#"
 	],
+	
+	"researchInstitute":
+	[
+		"BSR","American School","Belgian Academy","Canadian School","German Institute"
+	],
+
 	"location":
 	[
-		"hole-in-the-wall #superFood# joint", "fancy #superFood# restaurant", "secret #superFood# place", "#superNationality# pub", "#adjective# dive bar", "#adjective# gastropub", "#adjective# speakeasy", "#adjective# coffee shop", "#adjective# hookah lounge", "#superNationality# tea house"
+		"library", "site archive", "store rooms", "#superNationality# library", "#superNationality# school", "std clinic", "finds hut","ruined temple","mithraeum","temple to #deities#","#spacetimeRift#","hole-in-the-wall #superFood# joint", "fancy #superFood# restaurant", "secret #superFood# place", "#superNationality# pub", "#adjective# dive bar", "#adjective# gastropub", "#adjective# speakeasy", "#adjective# coffee shop", "#adjective# hookah lounge", "#superNationality# tea house"
 	],
 	"superFood":
 	[
@@ -140,6 +163,7 @@
 	"thingHappened":
 	[
 		"#thisPerson# came up and #didSomething#",
+		"#thisPerson# and #otherFriend# went on #archaeWork#, and were #seenAgain#",
 		"#thisPerson# walked over and #didSomething#",
 		"#otherFriend# literally walked into #thisPerson#, who then #didSomething#",
 		"#friend# wound up talking to #thisPerson# for, like, #timePeriod.s#",
@@ -157,6 +181,9 @@
 		"#friend# and the #stranger# went somewhere for a while, and they must have had #adjective.a# time because it felt like #otherFriend# and I were waiting for #timePeriod.s#",
 		"#name# showed up, but only for like a second -- #otherFriend# was #emotion# about that, as you can imagine",
 		"#otherFriend# got completely wasted",
+		"#friend# borked the #archaeoWord#",
+		"#otherFriend# went and dug at #digSite#",
+		"#otherFriend# got kicked off the #digSite# project",
 		"#friend# got kinda drunk and tried to kiss me... it was #superAdjective#",
 		"#friend# started #verbing#, and I joined in, and after awhile, so did #otherFriend#, #adverbly#",
 		"we saw #name# walking past us on the street, who didn't notice us at all",
@@ -173,21 +200,33 @@
 	"didSomething":
 	[
 		"asked us for change",
+		"stole the #archaeoWord# #archaeoWord#",
+		"invoked #deities#",
 		"asked for a smoke",
 		"told us we looked familiar",
+		"talked about the #archaeoWork#",
 		"said \"oops, I thought you were someone else\" and then left",
 		"asked if we could solve the #puzzle# in today's paper",
 		"asked if we knew a good #serviceOccupation#",
+		"asked what happened to the #archaeoWord# #archaeoWord#",
 		"asked if we knew any good jokes",
 		"told us a really corny dad joke",
+		"told us that #name# had been #eaten# by #deities#.",
+		"said that #digSite# wasn't being excavated this year",
+		"asked us if we ever dug at #digSite#",
 		"sniffed #otherFriend# suspiciously",
 		"complimented #friend#'s hair",
 		"made fun of #otherFriend#'s outfit",
 		"hit on #friend# while completely ignoring #otherFriend# and me"
 	],
+	"archaeWork":
+	[
+		"survey","geofiz","booze run","coffee run","laundary run","drug run","mag survey","fieldwalking"
+	],
+
 	"currentEvent":
 	[
-		"Ferguson", "Palestine", "Ebola", "same-sex marriage", "the new Star Wars movie", "climate change", "ethics in games journalism", "the war on terror", "the war on Christmas", "abortion", "marijuana legalization", "Iraq", "immigration reform", "women in tech", "real-name policies", "ISIS", "Syria", "gun control", "gentrification", "the Google buses", "Google Glass", "police brutality"
+		"grad school", "multi-vocality", "Roman economics", "african red slip", "the whole Shanks-Tilly thing", "processualism", "post-processualism", "post-post-processualism", "#deities#", "#name#'s disapperance", "the police report on #name#", "undergrads", "the neo-liberal university", "Open Context", "MSUDAI", "deontological philosophy", "public archaeology", "sex", "munsell soil charts", "line level", "the silverback", "#spacetimeRift#"
 	],
 	"performance":
 	[
@@ -205,9 +244,36 @@
 	[
 		"cat", "dog", "monkey", "elephant", "giraffe", "hippopotamus", "rhinoceros", "rat", "hamster", "pig", "chicken", "turkey", "iguana", "lizard", "alpaca", "llama", "emu", "flamingo", "bear", "otter", "cougar", "whale", "pigeon", "horse"
 	],
+	
+	"archaeoWord": 
+	[
+		"absolute dating","acheulean","acropolis","aerial photography","aerial reconnaisance","agora","alidade","alloy","alluvial deposit","amphora","ams","anthro","anthropology","antiquarian","archaeoastronomy","archaeology","archaeozoology","archaic","aristocracy","artifact","assemblage","association","BCE","BP","back dirt","balk","benchmark","biface tools","boat grave","bronze age","bulb of percussion","bulbar depression","CE","cache","canopic jar","carbon dating","cardinal directions","ceramics","chert","chipped stone tool","citadel","city-state","clan","classic period","classical age","classical archaeology","classical period","clovis point","collectors","colonial archaeology","column","conchoidal","conservation","context","contract archaeology","coprolite","core","corinthian column","cortex","cultural resource management","culture","cuneiform","datum point","debitage","dendrochronology","diffusion","doric column","ecofacts","egyptology","epigrapher","ethnography","excavation","experimental archaeology","fabric","feature","feminist archaeology","field notes","flake","flexed burial","flint","flotation","formation processes","geoarchaeology","glaze","global positioning system","grave goods","grid","ground reconaissance","ground-penetrating radar","half-life","harris matrix","hellenistic period","heiroglyphs","historical archaeology","hominid","hominin","household archaeology","hunter-gatherers","hypostyle","iconography","ideogram","in situ","inorganic","ionic column","iron age","knapping","levallois technique","law of superposition","linear a","linear b","lintel","lithic","locus","looter","material cutlure","matrix","medieval archaeology","mesolithic","microlith","midden","mousterian","neolithic","new world","nomads","obsidian","old world","oldowan","oligarchy","organic","osteology","paleobotany","paleolithic","paleontology","palynology","papyrus","pedology","petrology","pictogram","pithos","plane table","polis","prehistory","pressure flaking","primary context","profile","profile drawing","provenance","provenience","radiocarbon dating","radiometric dating","reconnaissance","relative dating","remote sensing","rescue archaeology","salvage archaeology","secondary context","sediments","seriation","settlement pattern","shaman","sherd","site","slip","soils","square","stela","stone age","stratigraphy","style","stylus","surface survey","tell","temper","terminus ante quem","terminus post quem","test pit","thermoluminescence","three age system","total station","transit","tree rings","trench","tufa","tumulus","type","typology","underwater archaeology","uniface tools","use-wear analysis","varves","ware","ziggurat","zone","cardiff giant","aliens","crystal skulls","denisovans","neanderthals","homo florienses","piltdown","hyperdiffusion","olmec","sailors","tara","pyramids","totalizing metanarrative","neoliberal"
+	],
+    
+	"spacetimeRift": 
+	[
+		"rift","interdimensional portal","hellmouth","gaping pit of hell","wormhole","rip in the fabric of space time"
+	],
+    "eaten": 
+    [
+    	"eaten","possessed by #deities#","dragged into the #spacetimeRift#","sucked into the abyss","driven into gibbering madness by #deities#","last seen running away from site to become an accountant"
+    ],
+        
+
+    "deities": 
+    [
+    	"Azathoth","Bastet","Cthugha","Cthulhu","Cthylla","Cxaxukluth","Cyäegha","Dagon","Ghatanothoa","Ghisguth","Gla'aki","Great Old One","Hastur","Hypnos","Hziulquoigmnzhah","Ithaqua","Knygathin Zhaum","Nodens","Nyarlathotep","Outer God","Sfatlicllp","Shathak","Shub-Niggurath","Tsathoggua","Ubbo-Sathla","Vulthoom","Y'golonac","Ycnágnnisssz","Yig","Yog-Sothoth","Ythogtha","Zoth-Ommog","Zstylzhemghi","Zvilpogghua"
+  	],
+      
+	"digSite":
+	[
+		"Forum Novum", "Shawville", "Poggio Civitate", "Kenan Tepe", "Chaco Canyon"
+	],
+
+
 	"game":
 	[
-		"videogame", "interactive #performance#", "Twine game", "interactive fiction game", "visual novel", "board game", "card game", "dating sim", "live-action roleplaying game"
+		"article", "interactive #performance#", "monograph", "interactive fiction representation of #archaeoWork#", "visual novel about #archaeoWork#", "board game", "card game", "dating sim", "live-action roleplaying game"
 	],
 	"gamePremise":
 	[
@@ -218,7 +284,8 @@
 		"#serviceOccupation.a# who comes across #magical.a# #accessory#",
 		"#serviceOccupation.a# getting #attack.ed# by a bunch of #animal.s#",
 		"#gender.a# who tastes #food# for the first time and finds it surprisingly #adjective#",
-		"#gender.a# who turns into #animal.a# and has #adjective.a# time of it"
+		"#gender.a# who turns into #animal.a# and has #adjective.a# time of it",
+		"#gender.a# who does #archaeoWork# for the first time and finds it #adjective#"
 	],
 	"gameAuthor":
 	[
